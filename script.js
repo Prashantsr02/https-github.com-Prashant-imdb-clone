@@ -31,6 +31,8 @@
 // 	.then((data) => console.log(data.results))
 // 	.catch((err) => console.log(err));
 
+console.log("new script is attached");
+
 let currentMovieStack = [];
 
 const homeButton = document.querySelector("#home-button");
