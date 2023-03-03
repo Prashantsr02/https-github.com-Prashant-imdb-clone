@@ -43,7 +43,7 @@ body{
 #movie-card-container{
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-evenly;
 }
 
 .movie-card{
