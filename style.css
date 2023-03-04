@@ -14,6 +14,8 @@ body{
 /* navigation bar styling */
 #navigation-bar{
     display: flex;
+    position: sticky;
+    top: 0px;
     justify-content: space-between;
     background: rgb(63, 58, 79);
     padding: 4px;
@@ -43,11 +45,11 @@ body{
 #movie-card-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+
 }
 
 .movie-card{
-    height: 350px;
+    height: 400px;
     width: 200px;
     margin: 10px;
     padding: 10px;
@@ -101,4 +103,65 @@ body{
 
 .add-to-favourite-button > img{
     height: 30px;
+}
+
+
+/* detail overview of movie styling */
+.detail-movie-card{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    color: whitesmoke;
+    background:rgba(63, 58, 79, 0.8);
+}
+
+.detail-movie-background{
+    display: block;
+    width: 80% ;
+    height: 300px;
+    margin: auto;
+    opacity: 0.6;
+
+}
+
+.detail-movie-poster{
+    display: block;
+    position: relative;
+    height: 300px;
+    margin: auto;
+    margin-top: -150px;
+    z-index: 2;
+}
+
+.detail-movie-title{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    background:rgb(63, 58, 79);
+}
+
+.detail-movie-title > span {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.detail-movie-rating{
+    display: flex;
+    align-items: center;
+}
+
+.detail-movie-rating > img{
+    height: 30px;
+    margin: 5px;
+}
+
+.detail-movie-plot{
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+}
+
+.detail-movie-plot > p {
+    margin: 15px;
 }
