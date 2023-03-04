@@ -5,7 +5,7 @@ which is for front end skill test in coding ninjas
 
 in this project we can
   1. search movies
-  2. view details of perticular movie
+  2. view details of particular movie
   3. add / remove movie from favourite section
   
 by default it shows tending movies on home pages
